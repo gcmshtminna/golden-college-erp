@@ -1,0 +1,1 @@
+console.log("Golden College Website Loaded Successfully");
