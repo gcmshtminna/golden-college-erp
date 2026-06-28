@@ -160,3 +160,14 @@ margin-top:10px;
 button:hover{
 background:#004080;
 }
+textarea{
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+width:100%;
+}
+
+label{
+font-weight:bold;
+margin-top:10px;
+}

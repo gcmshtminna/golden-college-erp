@@ -3,42 +3,39 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Online Admission Form</title>
+<title>Golden College Online Admission Form</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-<h1>Golden College Admission Portal</h1>
-<p>Online Application Form</p>
+<h1>Golden College of Medical Science & Health Technology</h1>
+<p>Online Admission Application Form</p>
 </header>
 
 <section class="form-section">
 
-<h2>Student Application Form</h2>
+<h2>Personal Information</h2>
 
 <form>
 
 <label>Full Name</label>
-<input type="text" placeholder="Enter full name">
+<input type="text" required>
 
 <label>Date of Birth</label>
 <input type="date">
 
-<label>Gender</label>
+<label>Sex</label>
 <select>
 <option>Male</option>
 <option>Female</option>
 </select>
 
-<label>Phone Number</label>
-<input type="tel" placeholder="e.g 080xxxxxxx">
+<label>Nationality</label>
+<input type="text">
 
-<label>Email Address</label>
-<input type="email" placeholder="example@gmail.com">
-
-<label>Home Address</label>
+<label>Place of Birth</label>
 <input type="text">
 
 <label>State of Origin</label>
@@ -47,16 +44,69 @@
 <label>Local Government Area</label>
 <input type="text">
 
-<label>Select Department</label>
+<label>Marital Status</label>
 <select>
-<option>CHEW</option>
-<option>Public Health</option>
-<option>X-Ray & Imaging</option>
-<option>Medical Laboratory</option>
-<option>Pharmacy Technician</option>
-<option>Health Education</option>
-<option>Family Health</option>
+<option>Single</option>
+<option>Married</option>
 </select>
+
+<label>Religion</label>
+<input type="text">
+
+<label>Phone Number</label>
+<input type="tel">
+
+<label>Email Address</label>
+<input type="email">
+
+<label>Postal Address</label>
+<textarea rows="3"></textarea>
+
+<label>Parent / Guardian Name</label>
+<input type="text">
+
+<h2>Academic Information</h2>
+
+<label>Examination Type</label>
+<select>
+<option>WAEC</option>
+<option>NECO</option>
+<option>NABTEB</option>
+<option>GCE</option>
+</select>
+
+<label>Subjects and Grades</label>
+<textarea rows="6" placeholder="Example: English - Credit, Mathematics - Credit"></textarea>
+
+<h2>Course Selection</h2>
+
+<label>Select Course</label>
+<select>
+<option>Community Health (CHEW)</option>
+<option>Public Health</option>
+<option>X-Ray & Medical Imaging</option>
+<option>Medical Laboratory Technician</option>
+<option>Pharmacy Technician</option>
+<option>Health Education & Promotion</option>
+<option>Family Health Care</option>
+</select>
+
+<h2>Document Uploads</h2>
+
+<label>Passport Photograph</label>
+<input type="file">
+
+<label>Birth Certificate</label>
+<input type="file">
+
+<label>Educational Certificate</label>
+<input type="file">
+
+<label>Testimonial</label>
+<input type="file">
+
+<label>Reference Letter</label>
+<input type="file">
 
 <button type="submit">Submit Application</button>
 
