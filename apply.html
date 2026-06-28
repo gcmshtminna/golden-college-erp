@@ -6,7 +6,7 @@
 <title>Golden College Online Admission Form</title>
 <link rel="stylesheet" href="style.css">
 </head>
-
+<script type="module" src="admission.js"></script>
 <body>
 
 <header>
@@ -68,6 +68,51 @@
 <h2>Academic Information</h2>
 
 <label>Examination Type</label>
+<select id="examType">
+<option>WAEC</option>
+<option>NECO</option>
+<option>NABTEB</option>
+<option>GCE</option>
+</select>
+
+<label>Subjects and Grades</label>
+<textarea id="subjectsGrades" rows="6" placeholder="Example: English - Credit, Mathematics - Credit"></textarea>
+
+<h2>Course Selection</h2>
+
+<label>Select Course</label>
+<select id="course">
+<option>Community Health (CHEW)</option>
+<option>Junior Community Health (JCHEW)</option>
+<option>Public Health</option>
+<option>X-Ray & Medical Imaging</option>
+<option>Medical Laboratory Technician</option>
+<option>Pharmacy Technician</option>
+<option>Health Education & Promotion</option>
+<option>Family Health Care</option>
+<option>Health Information Management</option>
+</select>
+
+<h2>Document Uploads</h2>
+
+<label>Passport Photograph</label>
+<input type="file" id="passportPhoto">
+
+<label>Birth Certificate</label>
+<input type="file" id="birthCertificate">
+
+<label>Educational Certificate</label>
+<input type="file" id="educationalCertificate">
+
+<label>Testimonial</label>
+<input type="file" id="testimonial">
+
+<label>Reference Letter</label>
+<input type="file" id="referenceLetter">
+
+<button type="submit">Submit Application</button>2>
+
+<label>Examination Type</label>
 <select>
 <option>WAEC</option>
 <option>NECO</option>
@@ -110,7 +155,7 @@
 
 <button type="submit">Submit Application</button>
 
-</form>
+<form id="admissionForm">
 
 </section>
 
